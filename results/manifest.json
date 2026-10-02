@@ -1,0 +1,12 @@
+{
+  "schema": "gridledger.manifest.v1",
+  "files": {
+    "results/ledger.json": "d86e2168a2454a6eeb88dc62594fbce9d28995b12656a75b7620794d3f5fa45d",
+    "results/metrics.json": "901498c4cb88017038777ee474ed0d9d918fa5003f74e8f1a76acae35b327cf1",
+    "results/model_F01.json": "5f276ab57d008d469648f9e670abb5ba38afc30572274f22fb7d68b5fe71f9ed",
+    "results/model_F02.json": "1844db57c2b843794cf07f020f526b6e5b6f9c2a33072b75f32d2f0f21f8dc85",
+    "results/model_F03.json": "5705369c2f82ad3ea3f8225298b67120286aca0624dadcd26958ec681ca2bee1",
+    "results/predictions.csv": "c569c93c436b5fdd954a644c2074aff2dc0a89d3b8960215dc1e1b27779de982",
+    "data/synthetic_hourly.csv": "94dfdd53e2648b978f800d600b0144da1f78681e862eb388102efabe66281c36"
+  }
+}

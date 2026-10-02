@@ -1,0 +1,12 @@
+{
+  "interface": "GridLedger 1.0 cobalt redesign",
+  "preset_scenarios": true,
+  "hourly_replay": true,
+  "keyboard_navigation": true,
+  "five_step_tour": true,
+  "temporal_audit_display": true,
+  "distribution_monitor": true,
+  "mobile_tabs_no_overflow": true,
+  "mobile_tour_no_overflow": true,
+  "page_errors": []
+}

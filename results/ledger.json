@@ -1,0 +1,47 @@
+{
+  "records": [
+    {
+      "index": 0,
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload": {
+        "schema": "gridledger.prediction.v1",
+        "feeder": "F01",
+        "timestamp": "2025-06-29T23:00:00Z",
+        "prediction_watts": 43042,
+        "model_sha256": "2d382ca8341343b8aaa2b6ff7095aeb5f6bd114d1279d415f9c6ecb0bf2d6a1e",
+        "dataset_sha256": "94dfdd53e2648b978f800d600b0144da1f78681e862eb388102efabe66281c36",
+        "anomaly": false
+      },
+      "hash": "152de13efb089cba2df861745d06e7f963f0aa88b97ce0f8c9959ae68ac89f87"
+    },
+    {
+      "index": 1,
+      "previous": "152de13efb089cba2df861745d06e7f963f0aa88b97ce0f8c9959ae68ac89f87",
+      "payload": {
+        "schema": "gridledger.prediction.v1",
+        "feeder": "F02",
+        "timestamp": "2025-06-29T23:00:00Z",
+        "prediction_watts": 57560,
+        "model_sha256": "0034b7f3a8801e35357168b15caf772a39b03fb67ef1a80bde7c14bcdf6504a6",
+        "dataset_sha256": "94dfdd53e2648b978f800d600b0144da1f78681e862eb388102efabe66281c36",
+        "anomaly": false
+      },
+      "hash": "e76560432f5548a9ce951ce17cc5a7470396d80f718c8f48d500b65b86419ac1"
+    },
+    {
+      "index": 2,
+      "previous": "e76560432f5548a9ce951ce17cc5a7470396d80f718c8f48d500b65b86419ac1",
+      "payload": {
+        "schema": "gridledger.prediction.v1",
+        "feeder": "F03",
+        "timestamp": "2025-06-29T23:00:00Z",
+        "prediction_watts": 74086,
+        "model_sha256": "31fae956004c732f3d55b960678429e6692626bbe04f0f53203e5c5808d83bab",
+        "dataset_sha256": "94dfdd53e2648b978f800d600b0144da1f78681e862eb388102efabe66281c36",
+        "anomaly": false
+      },
+      "hash": "4d4e1c8bfbd6a83782f61c734a10b42b4a62e4ce99f5bb0994baac92072cb8be"
+    }
+  ],
+  "checkpoint": "4d4e1c8bfbd6a83782f61c734a10b42b4a62e4ce99f5bb0994baac92072cb8be"
+}

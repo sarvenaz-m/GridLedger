@@ -1,0 +1,42 @@
+{
+  "environment": "ephemeral local Ganache EVM",
+  "compiler": "0.8.30+commit.73712a01.Emscripten.clang",
+  "chain_id": 1337,
+  "contract_sha256": "722b604c41630a43db547e9c2aa10f067bfcbb99eb6cc314f85f07951dcc9735",
+  "anchored_checkpoint": "4d4e1c8bfbd6a83782f61c734a10b42b4a62e4ce99f5bb0994baac92072cb8be",
+  "manifest_sha256": "9c3923533c837755b719840b68c7618bcda107e67ceab4adec06c9e6b55ac5d2",
+  "checks": [
+    {
+      "name": "Owner starts as an authorized writer",
+      "passed": true
+    },
+    {
+      "name": "Unauthorized writer cannot anchor",
+      "passed": true
+    },
+    {
+      "name": "Zero digest is rejected",
+      "passed": true
+    },
+    {
+      "name": "Prediction checkpoint and manifest are anchored",
+      "passed": true
+    },
+    {
+      "name": "Duplicate identifiers cannot overwrite history",
+      "passed": true
+    },
+    {
+      "name": "Only the owner may change writers",
+      "passed": true
+    },
+    {
+      "name": "Granted writer may anchor a new prediction",
+      "passed": true
+    },
+    {
+      "name": "Revocation blocks further writes",
+      "passed": true
+    }
+  ]
+}

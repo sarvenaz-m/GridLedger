@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0",
+  "seed": 42,
+  "data": "synthetic; not operational utility data",
+  "forecast_horizon": "rolling one hour ahead",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0"
+  },
+  "split_steps": {
+    "train_end_exclusive": 2880,
+    "calibration_end_exclusive": 3600,
+    "test_end_exclusive": 4320
+  },
+  "results": [
+    {
+      "feeder": "F01",
+      "name": "Riverside",
+      "n_train": 2712,
+      "n_calibration": 720,
+      "n_test": 720,
+      "n_clean_test": 699,
+      "forecast_clean_hours": {
+        "Ridge": {
+          "mae_kw": 2.2324312153234342,
+          "rmse_kw": 2.8087241181800335
+        },
+        "Gradient boosting": {
+          "mae_kw": 2.6052530027674656,
+          "rmse_kw": 3.4829154409904315
+        },
+        "Seasonal naive (24h)": {
+          "mae_kw": 5.85050459404154,
+          "rmse_kw": 8.914321340125525
+        }
+      },
+      "forecast_all_observed_hours": {
+        "mae_kw": 3.216354352599769,
+        "rmse_kw": 6.800866057339164
+      },
+      "coverage_clean": 0.9012875536480687,
+      "interval_half_width_kw": 4.741773559154069,
+      "anomaly_threshold_kw": 7.478180124360918,
+      "anomaly_precision": 0.84,
+      "anomaly_recall": 1.0,
+      "anomaly_f1": 0.9130434782608695,
+      "injected_hours": 21,
+      "alert_hours": 25
+    },
+    {
+      "feeder": "F02",
+      "name": "University",
+      "n_train": 2712,
+      "n_calibration": 720,
+      "n_test": 720,
+      "n_clean_test": 699,
+      "forecast_clean_hours": {
+        "Ridge": {
+          "mae_kw": 2.862431408191957,
+          "rmse_kw": 3.572024345125125
+        },
+        "Gradient boosting": {
+          "mae_kw": 3.3557478399314995,
+          "rmse_kw": 4.429560899946172
+        },
+        "Seasonal naive (24h)": {
+          "mae_kw": 7.61747974112035,
+          "rmse_kw": 11.71154187928661
+        }
+      },
+      "forecast_all_observed_hours": {
+        "mae_kw": 4.1559637532556994,
+        "rmse_kw": 8.876281043970467
+      },
+      "coverage_clean": 0.9155937052932761,
+      "interval_half_width_kw": 6.331912342199658,
+      "anomaly_threshold_kw": 9.988706219796462,
+      "anomaly_precision": 0.9130434782608695,
+      "anomaly_recall": 1.0,
+      "anomaly_f1": 0.9545454545454546,
+      "injected_hours": 21,
+      "alert_hours": 23
+    },
+    {
+      "feeder": "F03",
+      "name": "Harbour",
+      "n_train": 2712,
+      "n_calibration": 720,
+      "n_test": 720,
+      "n_clean_test": 699,
+      "forecast_clean_hours": {
+        "Ridge": {
+          "mae_kw": 3.7419246257353214,
+          "rmse_kw": 4.7075517525350214
+        },
+        "Gradient boosting": {
+          "mae_kw": 4.357460753529208,
+          "rmse_kw": 5.770091406041717
+        },
+        "Seasonal naive (24h)": {
+          "mae_kw": 9.55047951336248,
+          "rmse_kw": 15.031090972030471
+        }
+      },
+      "forecast_all_observed_hours": {
+        "mae_kw": 5.404861785842176,
+        "rmse_kw": 11.461755208664078
+      },
+      "coverage_clean": 0.9213161659513591,
+      "interval_half_width_kw": 8.316353146582884,
+      "anomaly_threshold_kw": 13.153306115231885,
+      "anomaly_precision": 0.9130434782608695,
+      "anomaly_recall": 1.0,
+      "anomaly_f1": 0.9545454545454546,
+      "injected_hours": 21,
+      "alert_hours": 23
+    }
+  ]
+}

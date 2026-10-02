@@ -1,0 +1,27 @@
+name: Reproduce and validate
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: python -m pip install -e .
+      - run: gridledger --out .
+        env:
+          OMP_NUM_THREADS: '1'
+          OPENBLAS_NUM_THREADS: '1'
+      - run: python -m gridledger.audit --root .
+        env:
+          OMP_NUM_THREADS: '1'
+          OPENBLAS_NUM_THREADS: '1'
+      - run: python -m unittest discover -s tests -v
+      - run: npm ci
+      - run: npm run test:browser-model
+      - run: npm run test:contract

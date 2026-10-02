@@ -1,0 +1,12 @@
+{
+  "python_tests": 25,
+  "python_tests_passed": 25,
+  "cross_runtime_predictions": 216,
+  "maximum_absolute_prediction_difference_kw": 5.684341886080802e-14,
+  "solidity_evm_checks": 8,
+  "solidity_evm_checks_passed": 8,
+  "execution": "Reproducible local experiment and interaction checks",
+  "expanding_window_folds": 15,
+  "model_comparisons": 45,
+  "distribution_comparisons": 60
+}
