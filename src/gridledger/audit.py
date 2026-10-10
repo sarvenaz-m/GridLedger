@@ -125,7 +125,7 @@ def distribution_shift(reference: np.ndarray, current: np.ndarray) -> dict[str, 
 def atomic_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     payload = json.dumps(value, indent=2, sort_keys=True, allow_nan=False) + '\n'
-    with tempfile.NamedTemporaryFile('w', dir=path.parent, delete=False, suffix='.tmp') as stream:
+    with tempfile.NamedTemporaryFile('w', dir=path.parent, delete=False, suffix='.tmp', encoding='utf-8', newline='\n') as stream:
         stream.write(payload)
         temporary = Path(stream.name)
     temporary.replace(path)
@@ -193,7 +193,7 @@ def run(root: Path, config: AuditConfig = AuditConfig()) -> dict[str, Any]:
                   'The audit does not replace the exported inference model.']}
     atomic_json(root / 'results/advanced_audit.json', output)
     js = 'window.GRIDLEDGER_AUDIT = ' + json.dumps(output, separators=(',', ':'), allow_nan=False) + ';\n'
-    (root / 'assets/advanced-data.js').write_text(js)
+    (root / 'assets/advanced-data.js').write_text(js, encoding='utf-8', newline='\n')
     atomic_json(root / 'results/advanced_manifest.json', {'schema': 'gridledger.audit-manifest.v1',
         'files': {name: hashlib.sha256((root / name).read_bytes()).hexdigest()
                   for name in ['results/advanced_audit.json', 'assets/advanced-data.js',

@@ -32,7 +32,10 @@ async function main() {
   await check('Only the owner may change writers',async()=>{await assert.rejects(registry.connect(outsider).setWriter.staticCall(await outsider.getAddress(),true));});
   await check('Granted writer may anchor a new prediction',async()=>{await(await registry.setWriter(await outsider.getAddress(),true)).wait();await(await registry.connect(outsider).anchor(ethers.id('second'),d,m)).wait();assert.equal(await registry.count(),2n);});
   await check('Revocation blocks further writes',async()=>{await(await registry.setWriter(await outsider.getAddress(),false)).wait();await assert.rejects(registry.connect(outsider).anchor.staticCall(ethers.id('third'),d,m));});
-  fs.writeFileSync(path.join(root,'results/evm-test.json'),JSON.stringify({environment:'ephemeral local Ganache EVM',compiler:solc.version(),chain_id:1337,contract_sha256:crypto.createHash('sha256').update(src).digest('hex'),anchored_checkpoint:ledger.checkpoint,manifest_sha256:manifest,checks},null,2)+'\n');
+  const realLedger=JSON.parse(fs.readFileSync(path.join(root,'results/real_ledger.json'),'utf8'));
+  const realManifest=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'results/real_manifest.json'))).digest('hex');
+  await check('Real UCI checkpoint and its separate manifest are anchored',async()=>{const realId=ethers.id('gridledger:uci:v2:checkpoint');await(await registry.anchor(realId,'0x'+realLedger.checkpoint,'0x'+realManifest)).wait();const a=await registry.anchors(realId);assert.equal(a.digest,'0x'+realLedger.checkpoint);assert.equal(a.manifest,'0x'+realManifest);assert.equal(await registry.count(),3n);});
+  fs.writeFileSync(path.join(root,'results/evm-test.json'),JSON.stringify({environment:'ephemeral local Ganache EVM',compiler:solc.version(),chain_id:1337,contract_sha256:crypto.createHash('sha256').update(src).digest('hex'),anchored_checkpoint:ledger.checkpoint,manifest_sha256:manifest,real_anchored_checkpoint:realLedger.checkpoint,real_manifest_sha256:realManifest,checks},null,2)+'\n');
   await engine.disconnect();
 }
 main().catch(e=>{console.error(e);process.exitCode=1;});

@@ -1,0 +1,12 @@
+{
+  "files": {
+    "results/figures/client_error_ratios.png": "361883c171a597098269b34397a6593bb6b75f6ba59d03ddc2c82ca775ed726d",
+    "results/figures/hourly_errors.png": "7d46a57a21781ab4935b9429ad66ffa65e3388baed43ea0ae1b0dcf04bf49935",
+    "results/figures/real_benchmark.png": "0430fb6d30148ed1eb0b771c2472ce59c3ad5fce6e18d784b833b6babccc7a9d",
+    "results/real_benchmark.json": "d31541143d3136453850455c3777a8750d99a7bd23ece283e59eac5ab89c460c",
+    "results/real_error_analysis.json": "9168ae103b62ab602155dad93afb29eacc1f949c57323ee3390e4f9ba8b68002",
+    "results/real_predictions.csv.gz": "da416a082547d53aa3da1fdccb7202d6423da0f35386422a0d1941a4478559ae",
+    "scripts/plot-real.py": "6b3929d17790bb3189742d76d1bc429e64ff161a9d29b9e205409867ad921302"
+  },
+  "schema": "gridledger.real-analysis-manifest.v2"
+}

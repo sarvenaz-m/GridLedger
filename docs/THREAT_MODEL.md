@@ -1,5 +1,7 @@
 # Threat model and limitations
 
+Version 2 adds `results/real_manifest.json` and a separate 60-record UCI prediction chain. The source is pinned to bytes observed from the official download. This supports reproducible integrity checks rather than independent authentication of utility measurements. Local EVM tests anchor both experiments with their respective manifests. The checkpoint, writer and privacy assumptions below apply to both.
+
 | Asset or risk | Implemented control | Remaining boundary |
 |---|---|---|
 | Prediction edited after recording | SHA-256 payload digest | An attacker can recompute an unanchored history |

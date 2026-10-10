@@ -3,7 +3,7 @@
     "assets/advanced-data.js": "dd6d23e27614aba651da86fe17c751d0883254a20f361d88ef5d5fefd57b09fa",
     "data/synthetic_hourly.csv": "94dfdd53e2648b978f800d600b0144da1f78681e862eb388102efabe66281c36",
     "results/advanced_audit.json": "78473620baa8c3ba1aa7f26a0cc0492a6c78c9308b47027c71ba1fe1e46813ac",
-    "src/gridledger/audit.py": "a6e0b06a5aa4c86c6650c11c067b71c3c50bcb09bc11e175a69e2e5c079d10bf"
+    "src/gridledger/audit.py": "af8170df1abadab43f277dd0aad448e60da8d1661484235a7754eadc412a989d"
   },
   "schema": "gridledger.audit-manifest.v1"
 }

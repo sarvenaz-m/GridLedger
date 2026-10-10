@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "predictions_checked": 4320,
+  "max_absolute_error_kw": 1.7053025658242404e-13,
+  "real_ledger_records": 60,
+  "tampering_detected": true,
+  "horizon_alignment": true,
+  "nonnegative_python_js_clipping": true,
+  "invalid_inputs_rejected": true
+}

@@ -1,81 +1,73 @@
 <a href="https://sarvenaz-m.github.io/GridLedger/">
-  <img src="assets/hero.svg" width="100%" alt="GridLedger — Energy, in perspective. Forecast, explore and verify. Open the live demo.">
+  <img src="assets/hero.svg" width="100%" alt="GridLedger 2.0 — real electricity data, three forecast horizons and reproducible evidence. Open the live workbench.">
 </a>
 
-<p align="center">
-  <a href="https://sarvenaz-m.github.io/GridLedger/"><img src="assets/open-demo.svg" width="232" height="52" alt="Open live demo"></a>
-</p>
+<p align="center"><a href="https://sarvenaz-m.github.io/GridLedger/"><img src="assets/open-demo.svg" width="232" height="52" alt="Open live workbench"></a></p>
 
-<p align="center"><b>Version 1.0</b> · Python + JavaScript + Solidity · Reproducible synthetic experiment</p>
+<p align="center"><b>Version 2.0</b> · Python + JavaScript + Solidity · Real UCI electricity benchmark</p>
 
-**Forecast electricity demand. Explore changing conditions. Follow every prediction back to its evidence.**
+**Forecast real electricity demand. Measure temporal error. Inspect the evidence.**
 
-GridLedger combines an interactive energy analytics workbench with a reproducible forecasting pipeline, temporal robustness audits and verifiable prediction records. The browser evaluates exported model weights locally. A separate Solidity registry anchors prediction and artifact digests.
+GridLedger evaluates 20 electricity clients across four future time windows and direct 1/6/24-hour horizons. It includes causal preprocessing, five model/baseline comparisons, separate calibration, controlled telemetry loss and every saved prediction. The browser recomputes frozen Ridge models locally. A Solidity registry is tested with both real and synthetic prediction digests on an ephemeral EVM.
 
-[Live workbench](https://sarvenaz-m.github.io/GridLedger/) · [Methodology](docs/METHODOLOGY.md) · [Temporal audit](docs/TEMPORAL_AUDIT.md) · [Security model](docs/THREAT_MODEL.md)
+[Live workbench](https://sarvenaz-m.github.io/GridLedger/) · [Real-data protocol](docs/REAL_DATA.md) · [Executed results](docs/RESULTS.md) · [Security model](docs/THREAT_MODEL.md)
 
-<a href="https://sarvenaz-m.github.io/GridLedger/">
-  <img src="assets/demo-preview.gif" width="100%" alt="Animated preview of the interactive workbench. Click to open the full live application.">
-</a>
+## What changed in version 2
 
-*Animated preview — click the image to use the interactive application.*
+- **Licensed real input:** official UCI source, fixed MT_001–MT_020 cohort, 2013–2014, 350,400 hourly client readings. The source and conversion are attributed under CC BY 4.0.
+- **Temporal evaluation:** four expanding training periods, separate 14-day calibration, disjoint test windows, and future labels purged at every boundary.
+- **Multiple horizons:** direct 1/6/24-hour models with last-value, daily and weekly baselines that only read available history.
+- **Data quality:** explicit provider-clock/DST policy, training-derived activation dates, preserved later zeros and causal gap handling.
+- **Robustness:** frozen models under 5% random input loss plus 24-hour monthly outages, evaluated against original observed targets.
+- **Auditable evidence:** all 438,720 targets/predictions, per-fold scores, daily block uncertainty, client/hour error analysis, manifests and 60 real prediction records.
+- **Real-data workspace:** select any client/horizon, inspect a 72-target replay, compare cohort results, toggle input loss, export CSV and verify records.
 
-## Explore the workbench
+The existing **synthetic studio** remains separately labelled: three fictional feeders, EV/PV scenarios, injected anomaly labels, one-hour replay and its original five-fold temporal audit. These inputs are not attributed to UCI.
 
-| Workspace | Try it |
-|---|---|
-| **Demand replay** | Select a feeder, play the 72-hour timeline, inspect a point or move with the arrow keys. |
-| **Scenario studio** | Apply the EV surge, low-solar or meter-anomaly preset; tune every parameter and export the result. |
-| **Model evaluation** | Compare model errors, interval coverage and five expanding-window evaluations per feeder. |
-| **Distribution monitor** | Inspect training-reference PSI and normalized Wasserstein scores across four input features. |
-| **Prediction provenance** | Attest a forecast, verify the record chain, test a modification and restore the valid snapshot. |
-| **Interactive tour** | Walk through forecasting, scenarios, anomaly inspection, evaluation and verification in five steps. |
+## Executed real-data results
 
-## Engineering behind the interface
+Lower MASE is better. Each fold's denominator uses valid training weekly seasonal error; folds are weighted by target count within a client, then clients receive equal weight.
 
-- **Causal features:** shifted load lags, historical rolling means, calendar harmonics and forecast-time exogenous inputs.
-- **Temporal evaluation:** separate training, calibration and test windows; fixed hyperparameters; refitting at each expanding-window fold.
-- **Input contracts:** required fields, finite values, physical input bounds, unique timestamps, hourly cadence and aligned step indices.
-- **Distribution diagnostics:** training-fitted quantile bins, smoothed population stability scores and scale-normalized Wasserstein distances.
-- **Reproducible artifacts:** deterministic generation, atomic audit writes, dataset/model digests and checksum manifests.
-- **Cross-runtime inference:** Python coefficients and scaler parameters evaluated by the same browser core used in the demo.
-- **Digest registry:** authorized writers, unique record identifiers and overwrite protection, exercised on a local EVM.
-- **Portable frontend:** responsive static files, reduced-motion support, keyboard controls and a standalone browser runtime.
+| Horizon | Last value | Daily seasonal | Weekly seasonal | Ridge | Gradient boosting | Boosting band coverage |
+|---|---:|---:|---:|---:|---:|---:|
+| 1h | 0.883 | 1.032 | 0.911 | 0.605 | 0.501 | 89.8% |
+| 6h | 2.529 | 1.032 | 0.913 | 0.769 | 0.692 | 88.9% |
+| 24h | 1.027 | 1.027 | 0.912 | 0.804 | 0.771 | 87.1% |
 
-## Executed evidence
+Boosting reduces macro MASE relative to the held-out weekly baseline by **45.1%, 24.1% and 15.5%** at 1/6/24 hours. It does not win for every client: the weekly baseline is better for MT_003 at all horizons and also MT_001/MT_015 at 24 hours. Its 24-hour nominal 90% band covers only **87.1%** of targets. These exceptions remain visible in the report.
 
-| Check | Result |
+![Real forecasting, input-loss and coverage results](results/figures/real_benchmark.png)
+
+This measures future consumption on the same 20 clients in one public dataset. It does not establish unseen-site generalization or operational grid performance. [Full interpretation and error analysis](docs/RESULTS.md).
+
+## Verify the release
+
+| Executed check | Evidence |
 |---|---:|
-| Python research, input-contract and integrity tests | **25 passed** |
-| Expanding-window evaluations | **15 folds** |
-| Model/baseline evaluations across those folds | **45** |
-| Descriptive distribution comparisons | **60** |
-| Python/browser prediction parity | **216 predictions** |
-| Solidity / local EVM checks | **8 passed** |
+| Python causal, temporal, QC and integrity tests | **51 passed** |
+| Real client × horizon × fold runs | **240** |
+| Model/baseline evaluations on clean targets | **1,200**, plus 1,200 input-loss evaluations |
+| Saved prediction rows independently re-scored | **438,720** |
+| Python/JavaScript parity | **4,320 real + 216 synthetic predictions** |
+| Real prediction records verified | **60** |
+| Solidity local EVM checks | **9 passed** |
+| Chromium desktop and mobile | **1440×1000 / 390×844; no page errors or horizontal overflow** |
 
-The recorded evidence is available in [`results/`](results/). Continuous validation is defined in [the workflow](.github/workflows/validate.yml).
+Checksums and evidence are in [`results/`](results/). CI validates committed real predictions offline, regenerates synthetic evidence, runs Python/Node tests and checks the actual UI. An optional manual workflow downloads the pinned source and refits the real benchmark. [Workflow](.github/workflows/validate.yml).
 
-## Temporal robustness
-
-Five disjoint 20-day test windows follow expanding training periods and separate 20-day calibration windows. Values below are pooled clean-hour MAE in kW from the executed audit.
-
-| Feeder | Ridge | Gradient boosting | 24h seasonal baseline | Mean interval coverage |
-|---|---:|---:|---:|---:|
-| F01 · Riverside | 2.22 | 2.55 | 5.09 | 90.3% |
-| F02 · University | 3.00 | 3.47 | 6.91 | 90.5% |
-| F03 · Harbour | 3.77 | 4.43 | 8.56 | 90.3% |
-
-These values describe the deterministic synthetic experiment. The three feeders share a data-generating design. Per-fold errors, all-hour coverage, calibration contamination counts and distribution scores are in [`advanced_audit.json`](results/advanced_audit.json). The original final-month benchmark is preserved in [`metrics.json`](results/metrics.json).
-
-## Run locally
+## Open the application
 
 ```sh
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000`. The interface has no external fonts, trackers, API keys or CDN dependencies. HTTPS or localhost enables browser SHA-256 attestation.
+Open `http://localhost:8000`. The application uses local static assets, with no account, API key or external runtime service. HTTPS or localhost enables browser SHA-256 verification.
 
-## Reproduce the full pipeline
+<a href="https://sarvenaz-m.github.io/GridLedger/"><img src="assets/real-workbench.png" width="100%" alt="Actual GridLedger 2.0 desktop application showing real electricity replay and model comparisons"></a>
+
+[Actual mobile screenshot](assets/real-mobile.png).
+
+## Reproduce locally
 
 Python 3.11+ and Node 20+:
 
@@ -83,35 +75,47 @@ Python 3.11+ and Node 20+:
 python -m venv .venv
 # macOS/Linux: source .venv/bin/activate
 # Windows: .venv\Scripts\activate
-python -m pip install -e .
-gridledger --out .
+python -m pip install -e '.[plots]'
+gridledger-verify --root .      # verify every committed real prediction
+gridledger-real --root .        # refit using the committed real extract
+python scripts/plot-real.py
+gridledger --out .              # reproduce the separate synthetic studio
 gridledger-audit --root .
 python -m unittest discover -s tests -v
 npm ci
 npm run test:browser-model
+npm run test:real-model
 npm run test:contract
+npx playwright install chromium
+npm run test:ui
 ```
 
-The experiment generates 12,960 observations, model weights, predictions and metrics. The audit independently reads the versioned CSV, verifies its contract and writes additional evidence without replacing the inference model. Dependency versions and random seeds are recorded. See [methodology](docs/METHODOLOGY.md) and [audit design](docs/TEMPORAL_AUDIT.md).
+`npm run test:ui` starts and stops its own local static server. On Linux, install browser system dependencies with `npx playwright install --with-deps chromium` when needed. Core Python packages and Playwright are pinned; JavaScript dependencies are locked.
+
+The **real extract is committed**; ordinary fitting needs no data download. To independently recreate it from UCI:
+
+```sh
+gridledger-fetch --root .
+gridledger-real --root .
+gridledger-verify --root .
+```
+
+The original ~249 MiB ZIP is cached outside versioned inputs. The compressed prediction file preserves floating-point precision and deterministic gzip metadata. [Exact source/clock/forecast protocol](docs/REAL_DATA.md).
 
 ## Repository map
 
 | Path | Purpose |
 |---|---|
-| `index.html`, `assets/` | Interactive workbench, model runtime, audit view and repository artwork |
-| `src/gridledger/pipeline.py` | Simulation, feature engineering, training and export |
-| `src/gridledger/audit.py` | Data contracts, temporal evaluation and distribution diagnostics |
-| `src/gridledger/provenance.py` | Canonical records and hash-chain verification |
-| `contracts/PredictionRegistry.sol` | Authorized append-only digest registry |
-| `tests/`, `scripts/` | Scientific checks, cross-runtime parity and local EVM execution |
-| `data/`, `results/` | Synthetic inputs and reproducible evidence |
-
-## Interpretation and security
-
-The scenario engine applies explicit EV and PV perturbations to aggregate load. The model's forecast horizon is one hour, evaluated sequentially. Prediction bands and distribution scores are descriptive measures on temporally dependent data. Engineering assumptions and external-validation requirements are documented in [methodology](docs/METHODOLOGY.md).
-
-Browser attestations are local session records. A separately trusted checkpoint is needed to detect a complete history rewrite. The Solidity registry is tested on a local EVM; see the [security model](docs/THREAT_MODEL.md) for the trust assumptions and controls.
+| `index.html`, `assets/real-view.js`, `assets/real-data.*` | Actual real-data workspace and frozen browser inference |
+| `src/gridledger/real_data.py` | Pinned official source, hourly conversion, clock and activation QC |
+| `src/gridledger/real.py` | Direct forecasting, purged folds, calibration, input loss, statistics and export |
+| `src/gridledger/verify.py` | Checksums and independent re-scoring of every prediction |
+| `data/uci_hourly.csv`, `data/uci_source.json` | Attributed real extract and provenance |
+| `results/real_*`, `results/figures/` | Scores, full predictions, error analysis, manifests and scientific figures |
+| `src/gridledger/pipeline.py`, `src/gridledger/audit.py` | Preserved synthetic experiment and audit |
+| `src/gridledger/provenance.py`, `contracts/PredictionRegistry.sol` | Local chains and authorized digest anchoring |
+| `tests/`, `scripts/` | Scientific checks, JavaScript parity, real browser and EVM validation |
 
 ## License
 
-MIT for source and original graphics. Generated synthetic data use the same license. Third-party packages retain their own licenses.
+Code and the original synthetic experiment: [MIT](LICENSE). UCI-derived data and evidence: **CC BY 4.0**, with attribution to Artur Trindade and the UCI Machine Learning Repository. [Third-party notice](THIRD_PARTY_NOTICES.md) records the source and modifications.

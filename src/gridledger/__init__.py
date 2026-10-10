@@ -1,2 +1,2 @@
-"""GridLedger: auditable energy-ML experiments, version 1.0."""
-__version__ = "1.0.0"
+"""GridLedger: auditable energy-ML experiments with real UCI validation."""
+__version__ = "2.0.0"

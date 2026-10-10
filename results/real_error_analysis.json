@@ -1,0 +1,1478 @@
+{
+  "boosting_worse_than_weekly_clients": {
+    "1": [
+      "MT_003"
+    ],
+    "24": [
+      "MT_001",
+      "MT_003",
+      "MT_015"
+    ],
+    "6": [
+      "MT_003"
+    ]
+  },
+  "hourly_errors": [
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.4190595427623558,
+      "model": "Ridge",
+      "target_hour": 0
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.4337121349609846,
+      "model": "Ridge",
+      "target_hour": 1
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.3711826319877362,
+      "model": "Ridge",
+      "target_hour": 2
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.3619271795076739,
+      "model": "Ridge",
+      "target_hour": 3
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.28836180483506274,
+      "model": "Ridge",
+      "target_hour": 4
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.3181883538401223,
+      "model": "Ridge",
+      "target_hour": 5
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5339547822618277,
+      "model": "Ridge",
+      "target_hour": 6
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5992987696991084,
+      "model": "Ridge",
+      "target_hour": 7
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.8171436424847405,
+      "model": "Ridge",
+      "target_hour": 8
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.7668476970972053,
+      "model": "Ridge",
+      "target_hour": 9
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6996663754744763,
+      "model": "Ridge",
+      "target_hour": 10
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6964443860100256,
+      "model": "Ridge",
+      "target_hour": 11
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.7144570448911288,
+      "model": "Ridge",
+      "target_hour": 12
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.7516474869252227,
+      "model": "Ridge",
+      "target_hour": 13
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.7357237908352492,
+      "model": "Ridge",
+      "target_hour": 14
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6771348178582859,
+      "model": "Ridge",
+      "target_hour": 15
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6349486412494634,
+      "model": "Ridge",
+      "target_hour": 16
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6552876619314633,
+      "model": "Ridge",
+      "target_hour": 17
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.7925113620249136,
+      "model": "Ridge",
+      "target_hour": 18
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.8121342569749803,
+      "model": "Ridge",
+      "target_hour": 19
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.7290380649327356,
+      "model": "Ridge",
+      "target_hour": 20
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6786485521817724,
+      "model": "Ridge",
+      "target_hour": 21
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5486592413503373,
+      "model": "Ridge",
+      "target_hour": 22
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.48842149689231285,
+      "model": "Ridge",
+      "target_hour": 23
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.6052528514668581,
+      "model": "Ridge",
+      "target_hour": 0
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.6286795295850124,
+      "model": "Ridge",
+      "target_hour": 1
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.6033143121828056,
+      "model": "Ridge",
+      "target_hour": 2
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.5285090688073942,
+      "model": "Ridge",
+      "target_hour": 3
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.4921620399672079,
+      "model": "Ridge",
+      "target_hour": 4
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.4614680489311396,
+      "model": "Ridge",
+      "target_hour": 5
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.4486267812758064,
+      "model": "Ridge",
+      "target_hour": 6
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.5860888119995287,
+      "model": "Ridge",
+      "target_hour": 7
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.7541956323035748,
+      "model": "Ridge",
+      "target_hour": 8
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.9020250705862252,
+      "model": "Ridge",
+      "target_hour": 9
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8972401184937071,
+      "model": "Ridge",
+      "target_hour": 10
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.9807229234767642,
+      "model": "Ridge",
+      "target_hour": 11
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.9495625054678405,
+      "model": "Ridge",
+      "target_hour": 12
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.9195638241139154,
+      "model": "Ridge",
+      "target_hour": 13
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8960691802774546,
+      "model": "Ridge",
+      "target_hour": 14
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.9346605159101908,
+      "model": "Ridge",
+      "target_hour": 15
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8989948717097425,
+      "model": "Ridge",
+      "target_hour": 16
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.91610881650263,
+      "model": "Ridge",
+      "target_hour": 17
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.997101276854697,
+      "model": "Ridge",
+      "target_hour": 18
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.9891850907204516,
+      "model": "Ridge",
+      "target_hour": 19
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.9085321100479684,
+      "model": "Ridge",
+      "target_hour": 20
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.7739900747099989,
+      "model": "Ridge",
+      "target_hour": 21
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.7079516287240077,
+      "model": "Ridge",
+      "target_hour": 22
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.6601609869234342,
+      "model": "Ridge",
+      "target_hour": 23
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.6467441350914023,
+      "model": "Ridge",
+      "target_hour": 0
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.6494992565122882,
+      "model": "Ridge",
+      "target_hour": 1
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.599170612893116,
+      "model": "Ridge",
+      "target_hour": 2
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.5270623792483168,
+      "model": "Ridge",
+      "target_hour": 3
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.5076919449960677,
+      "model": "Ridge",
+      "target_hour": 4
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.514371646132369,
+      "model": "Ridge",
+      "target_hour": 5
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.5347113211620339,
+      "model": "Ridge",
+      "target_hour": 6
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.6709530341983109,
+      "model": "Ridge",
+      "target_hour": 7
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.8012066550752557,
+      "model": "Ridge",
+      "target_hour": 8
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.934201847239579,
+      "model": "Ridge",
+      "target_hour": 9
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9420544412407106,
+      "model": "Ridge",
+      "target_hour": 10
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.0100866269960282,
+      "model": "Ridge",
+      "target_hour": 11
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9858564524534733,
+      "model": "Ridge",
+      "target_hour": 12
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9103078981992315,
+      "model": "Ridge",
+      "target_hour": 13
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9467884209091052,
+      "model": "Ridge",
+      "target_hour": 14
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.991224295121939,
+      "model": "Ridge",
+      "target_hour": 15
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9855385311179499,
+      "model": "Ridge",
+      "target_hour": 16
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.0179877846332754,
+      "model": "Ridge",
+      "target_hour": 17
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.0428455799108824,
+      "model": "Ridge",
+      "target_hour": 18
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9830937685607811,
+      "model": "Ridge",
+      "target_hour": 19
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9191575276442489,
+      "model": "Ridge",
+      "target_hour": 20
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.7941240247008459,
+      "model": "Ridge",
+      "target_hour": 21
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.7189387618757821,
+      "model": "Ridge",
+      "target_hour": 22
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.6707746358805323,
+      "model": "Ridge",
+      "target_hour": 23
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.3637306699776137,
+      "model": "Gradient boosting",
+      "target_hour": 0
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.34624716017107876,
+      "model": "Gradient boosting",
+      "target_hour": 1
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.2726889954093005,
+      "model": "Gradient boosting",
+      "target_hour": 2
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.2589653053891901,
+      "model": "Gradient boosting",
+      "target_hour": 3
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.2359293818649538,
+      "model": "Gradient boosting",
+      "target_hour": 4
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.2610643535849875,
+      "model": "Gradient boosting",
+      "target_hour": 5
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.3782636851722707,
+      "model": "Gradient boosting",
+      "target_hour": 6
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.49038228885383617,
+      "model": "Gradient boosting",
+      "target_hour": 7
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6154473173647926,
+      "model": "Gradient boosting",
+      "target_hour": 8
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6178964523762249,
+      "model": "Gradient boosting",
+      "target_hour": 9
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6086503632097214,
+      "model": "Gradient boosting",
+      "target_hour": 10
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6187222275947334,
+      "model": "Gradient boosting",
+      "target_hour": 11
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.612727710319274,
+      "model": "Gradient boosting",
+      "target_hour": 12
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5786927346392383,
+      "model": "Gradient boosting",
+      "target_hour": 13
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5789900358033642,
+      "model": "Gradient boosting",
+      "target_hour": 14
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5664437302533665,
+      "model": "Gradient boosting",
+      "target_hour": 15
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5422447831282435,
+      "model": "Gradient boosting",
+      "target_hour": 16
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5779601642616787,
+      "model": "Gradient boosting",
+      "target_hour": 17
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6579803368569046,
+      "model": "Gradient boosting",
+      "target_hour": 18
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.7055967751185878,
+      "model": "Gradient boosting",
+      "target_hour": 19
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6399367107085749,
+      "model": "Gradient boosting",
+      "target_hour": 20
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5712331012500319,
+      "model": "Gradient boosting",
+      "target_hour": 21
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5007881002952137,
+      "model": "Gradient boosting",
+      "target_hour": 22
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.4156592015417983,
+      "model": "Gradient boosting",
+      "target_hour": 23
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.5158706267408462,
+      "model": "Gradient boosting",
+      "target_hour": 0
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.4930736031923207,
+      "model": "Gradient boosting",
+      "target_hour": 1
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.45250815026601926,
+      "model": "Gradient boosting",
+      "target_hour": 2
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.401786216344001,
+      "model": "Gradient boosting",
+      "target_hour": 3
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.38024716909443257,
+      "model": "Gradient boosting",
+      "target_hour": 4
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.38011598572731103,
+      "model": "Gradient boosting",
+      "target_hour": 5
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.4267139811393176,
+      "model": "Gradient boosting",
+      "target_hour": 6
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.5396484955525261,
+      "model": "Gradient boosting",
+      "target_hour": 7
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.6972566871815727,
+      "model": "Gradient boosting",
+      "target_hour": 8
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8077767000243989,
+      "model": "Gradient boosting",
+      "target_hour": 9
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8540163822213911,
+      "model": "Gradient boosting",
+      "target_hour": 10
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.9285497221498924,
+      "model": "Gradient boosting",
+      "target_hour": 11
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8971627066057124,
+      "model": "Gradient boosting",
+      "target_hour": 12
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8205663529353959,
+      "model": "Gradient boosting",
+      "target_hour": 13
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8168977643305924,
+      "model": "Gradient boosting",
+      "target_hour": 14
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8495810157330437,
+      "model": "Gradient boosting",
+      "target_hour": 15
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8327080996687279,
+      "model": "Gradient boosting",
+      "target_hour": 16
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8483355316959393,
+      "model": "Gradient boosting",
+      "target_hour": 17
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8875642318034342,
+      "model": "Gradient boosting",
+      "target_hour": 18
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.9002151115665129,
+      "model": "Gradient boosting",
+      "target_hour": 19
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8632030809051715,
+      "model": "Gradient boosting",
+      "target_hour": 20
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.7530426276046449,
+      "model": "Gradient boosting",
+      "target_hour": 21
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.657400268504478,
+      "model": "Gradient boosting",
+      "target_hour": 22
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.5862744009982503,
+      "model": "Gradient boosting",
+      "target_hour": 23
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.5973690238586385,
+      "model": "Gradient boosting",
+      "target_hour": 0
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.5663041586213773,
+      "model": "Gradient boosting",
+      "target_hour": 1
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.5196328693097951,
+      "model": "Gradient boosting",
+      "target_hour": 2
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.46795635069494557,
+      "model": "Gradient boosting",
+      "target_hour": 3
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.45190424531378987,
+      "model": "Gradient boosting",
+      "target_hour": 4
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.46091785197938256,
+      "model": "Gradient boosting",
+      "target_hour": 5
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.504563174256294,
+      "model": "Gradient boosting",
+      "target_hour": 6
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.6183838482509956,
+      "model": "Gradient boosting",
+      "target_hour": 7
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.7704298904987154,
+      "model": "Gradient boosting",
+      "target_hour": 8
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.8777835660897191,
+      "model": "Gradient boosting",
+      "target_hour": 9
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.927548541811577,
+      "model": "Gradient boosting",
+      "target_hour": 10
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.001505807957354,
+      "model": "Gradient boosting",
+      "target_hour": 11
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9592710676404813,
+      "model": "Gradient boosting",
+      "target_hour": 12
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.8718904230585519,
+      "model": "Gradient boosting",
+      "target_hour": 13
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9132981152941164,
+      "model": "Gradient boosting",
+      "target_hour": 14
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9459612892140973,
+      "model": "Gradient boosting",
+      "target_hour": 15
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9502074501125974,
+      "model": "Gradient boosting",
+      "target_hour": 16
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9629492112270679,
+      "model": "Gradient boosting",
+      "target_hour": 17
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9831974139776165,
+      "model": "Gradient boosting",
+      "target_hour": 18
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.971316900684349,
+      "model": "Gradient boosting",
+      "target_hour": 19
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.9316601771888259,
+      "model": "Gradient boosting",
+      "target_hour": 20
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.8363059257668046,
+      "model": "Gradient boosting",
+      "target_hour": 21
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.7441920868870049,
+      "model": "Gradient boosting",
+      "target_hour": 22
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.6692662447027085,
+      "model": "Gradient boosting",
+      "target_hour": 23
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.7300307229794406,
+      "model": "Seasonal 168h",
+      "target_hour": 0
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6573253305308767,
+      "model": "Seasonal 168h",
+      "target_hour": 1
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6139892074942932,
+      "model": "Seasonal 168h",
+      "target_hour": 2
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5719468704292436,
+      "model": "Seasonal 168h",
+      "target_hour": 3
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5597370080893147,
+      "model": "Seasonal 168h",
+      "target_hour": 4
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.5524769504424507,
+      "model": "Seasonal 168h",
+      "target_hour": 5
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.6043901843645251,
+      "model": "Seasonal 168h",
+      "target_hour": 6
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.738196219895413,
+      "model": "Seasonal 168h",
+      "target_hour": 7
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.8877970849920235,
+      "model": "Seasonal 168h",
+      "target_hour": 8
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.0092208945316177,
+      "model": "Seasonal 168h",
+      "target_hour": 9
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.0650320682004482,
+      "model": "Seasonal 168h",
+      "target_hour": 10
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.1724573277672679,
+      "model": "Seasonal 168h",
+      "target_hour": 11
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.1354093767877154,
+      "model": "Seasonal 168h",
+      "target_hour": 12
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.0511201472086487,
+      "model": "Seasonal 168h",
+      "target_hour": 13
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.0929652703195785,
+      "model": "Seasonal 168h",
+      "target_hour": 14
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.131217722286384,
+      "model": "Seasonal 168h",
+      "target_hour": 15
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.1240288645163499,
+      "model": "Seasonal 168h",
+      "target_hour": 16
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.1268479675713066,
+      "model": "Seasonal 168h",
+      "target_hour": 17
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.1499989748130444,
+      "model": "Seasonal 168h",
+      "target_hour": 18
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.1350631883417546,
+      "model": "Seasonal 168h",
+      "target_hour": 19
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 1.0770207416144162,
+      "model": "Seasonal 168h",
+      "target_hour": 20
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.9710676856148733,
+      "model": "Seasonal 168h",
+      "target_hour": 21
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.8949753698550357,
+      "model": "Seasonal 168h",
+      "target_hour": 22
+    },
+    {
+      "horizon_hours": 1,
+      "macro_scaled_error": 0.8227253715033289,
+      "model": "Seasonal 168h",
+      "target_hour": 23
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.7299200367981147,
+      "model": "Seasonal 168h",
+      "target_hour": 0
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.6586912930658047,
+      "model": "Seasonal 168h",
+      "target_hour": 1
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.6149377263197394,
+      "model": "Seasonal 168h",
+      "target_hour": 2
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.571613317426199,
+      "model": "Seasonal 168h",
+      "target_hour": 3
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.5587749786775456,
+      "model": "Seasonal 168h",
+      "target_hour": 4
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.5524769504424507,
+      "model": "Seasonal 168h",
+      "target_hour": 5
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.6043901843645251,
+      "model": "Seasonal 168h",
+      "target_hour": 6
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.738196219895413,
+      "model": "Seasonal 168h",
+      "target_hour": 7
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8877970849920235,
+      "model": "Seasonal 168h",
+      "target_hour": 8
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.0092208945316177,
+      "model": "Seasonal 168h",
+      "target_hour": 9
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.0650320682004482,
+      "model": "Seasonal 168h",
+      "target_hour": 10
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.1724573277672679,
+      "model": "Seasonal 168h",
+      "target_hour": 11
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.1354093767877154,
+      "model": "Seasonal 168h",
+      "target_hour": 12
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.0511201472086487,
+      "model": "Seasonal 168h",
+      "target_hour": 13
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.0929652703195785,
+      "model": "Seasonal 168h",
+      "target_hour": 14
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.131217722286384,
+      "model": "Seasonal 168h",
+      "target_hour": 15
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.1240288645163499,
+      "model": "Seasonal 168h",
+      "target_hour": 16
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.1268479675713066,
+      "model": "Seasonal 168h",
+      "target_hour": 17
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.1499989748130444,
+      "model": "Seasonal 168h",
+      "target_hour": 18
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.1350631883417546,
+      "model": "Seasonal 168h",
+      "target_hour": 19
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 1.0770207416144162,
+      "model": "Seasonal 168h",
+      "target_hour": 20
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.9710676856148733,
+      "model": "Seasonal 168h",
+      "target_hour": 21
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8949753698550357,
+      "model": "Seasonal 168h",
+      "target_hour": 22
+    },
+    {
+      "horizon_hours": 6,
+      "macro_scaled_error": 0.8227253715033289,
+      "model": "Seasonal 168h",
+      "target_hour": 23
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.7299200367981147,
+      "model": "Seasonal 168h",
+      "target_hour": 0
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.6586912930658047,
+      "model": "Seasonal 168h",
+      "target_hour": 1
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.6149377263197394,
+      "model": "Seasonal 168h",
+      "target_hour": 2
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.571613317426199,
+      "model": "Seasonal 168h",
+      "target_hour": 3
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.5587749786775456,
+      "model": "Seasonal 168h",
+      "target_hour": 4
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.5508824215962492,
+      "model": "Seasonal 168h",
+      "target_hour": 5
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.6012883586832098,
+      "model": "Seasonal 168h",
+      "target_hour": 6
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.7370779550766935,
+      "model": "Seasonal 168h",
+      "target_hour": 7
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.8874687707404207,
+      "model": "Seasonal 168h",
+      "target_hour": 8
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.009068667085861,
+      "model": "Seasonal 168h",
+      "target_hour": 9
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.0653643614322188,
+      "model": "Seasonal 168h",
+      "target_hour": 10
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.1749665984742006,
+      "model": "Seasonal 168h",
+      "target_hour": 11
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.1377371995727068,
+      "model": "Seasonal 168h",
+      "target_hour": 12
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.0550702163857004,
+      "model": "Seasonal 168h",
+      "target_hour": 13
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.0973443247636314,
+      "model": "Seasonal 168h",
+      "target_hour": 14
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.134628257007647,
+      "model": "Seasonal 168h",
+      "target_hour": 15
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.1285061907488276,
+      "model": "Seasonal 168h",
+      "target_hour": 16
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.1315400813457832,
+      "model": "Seasonal 168h",
+      "target_hour": 17
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.149129773329485,
+      "model": "Seasonal 168h",
+      "target_hour": 18
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.1351154533804901,
+      "model": "Seasonal 168h",
+      "target_hour": 19
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 1.0769255930872033,
+      "model": "Seasonal 168h",
+      "target_hour": 20
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.970088822536854,
+      "model": "Seasonal 168h",
+      "target_hour": 21
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.8947887627414373,
+      "model": "Seasonal 168h",
+      "target_hour": 22
+    },
+    {
+      "horizon_hours": 24,
+      "macro_scaled_error": 0.8227253715033289,
+      "model": "Seasonal 168h",
+      "target_hour": 23
+    }
+  ],
+  "interpretation": "Descriptive error analysis after evaluation; never used to tune hyperparameters or select the cohort.",
+  "prediction_sha256": "da416a082547d53aa3da1fdccb7202d6423da0f35386422a0d1941a4478559ae",
+  "ratio_by_client": [
+    {
+      "meter": "MT_001",
+      "ratios_1_6_24h": [
+        0.40109192811132777,
+        0.7408924531367505,
+        1.2528448350669776
+      ]
+    },
+    {
+      "meter": "MT_002",
+      "ratios_1_6_24h": [
+        0.5165878634631402,
+        0.7711840646753013,
+        0.7926109480204045
+      ]
+    },
+    {
+      "meter": "MT_003",
+      "ratios_1_6_24h": [
+        4.837889290335386,
+        8.012089475715582,
+        6.365546756024658
+      ]
+    },
+    {
+      "meter": "MT_004",
+      "ratios_1_6_24h": [
+        0.7000590335868883,
+        0.8815878654595914,
+        0.8586465153553073
+      ]
+    },
+    {
+      "meter": "MT_005",
+      "ratios_1_6_24h": [
+        0.47732063346443754,
+        0.6572589326849197,
+        0.6762351358772237
+      ]
+    },
+    {
+      "meter": "MT_006",
+      "ratios_1_6_24h": [
+        0.609525114848926,
+        0.76690692399447,
+        0.773132936072728
+      ]
+    },
+    {
+      "meter": "MT_007",
+      "ratios_1_6_24h": [
+        0.1640173414404771,
+        0.31861361175664793,
+        0.5256784495413231
+      ]
+    },
+    {
+      "meter": "MT_008",
+      "ratios_1_6_24h": [
+        0.6405867277598054,
+        0.8019140145783166,
+        0.8129989166268966
+      ]
+    },
+    {
+      "meter": "MT_009",
+      "ratios_1_6_24h": [
+        0.5554248140671681,
+        0.7343950388231639,
+        0.7752282890178048
+      ]
+    },
+    {
+      "meter": "MT_010",
+      "ratios_1_6_24h": [
+        0.5297056373839655,
+        0.7924383570383257,
+        0.8055319824852437
+      ]
+    },
+    {
+      "meter": "MT_011",
+      "ratios_1_6_24h": [
+        0.5793794696452449,
+        0.7277005151189021,
+        0.7501499034994438
+      ]
+    },
+    {
+      "meter": "MT_012",
+      "ratios_1_6_24h": [
+        0.6874986316786688,
+        0.9141841063805615,
+        0.9396300613691627
+      ]
+    },
+    {
+      "meter": "MT_013",
+      "ratios_1_6_24h": [
+        0.5522420368361688,
+        0.7694403039794021,
+        0.8829000174764374
+      ]
+    },
+    {
+      "meter": "MT_014",
+      "ratios_1_6_24h": [
+        0.502533380568626,
+        0.7820965851413333,
+        0.8215049889108976
+      ]
+    },
+    {
+      "meter": "MT_015",
+      "ratios_1_6_24h": [
+        0.6259306615438279,
+        0.82218772090015,
+        1.528639952636677
+      ]
+    },
+    {
+      "meter": "MT_016",
+      "ratios_1_6_24h": [
+        0.5272155094668567,
+        0.7168067983028443,
+        0.7522477733058787
+      ]
+    },
+    {
+      "meter": "MT_017",
+      "ratios_1_6_24h": [
+        0.6904508350320719,
+        0.7943194501169589,
+        0.802426925292973
+      ]
+    },
+    {
+      "meter": "MT_018",
+      "ratios_1_6_24h": [
+        0.46635949729750076,
+        0.7141109607863904,
+        0.7426395144171865
+      ]
+    },
+    {
+      "meter": "MT_019",
+      "ratios_1_6_24h": [
+        0.6533127605212575,
+        0.7917358997742344,
+        0.7965963493641012
+      ]
+    },
+    {
+      "meter": "MT_020",
+      "ratios_1_6_24h": [
+        0.49781219122747633,
+        0.7442230708209252,
+        0.7711184999788375
+      ]
+    }
+  ],
+  "schema": "gridledger.real-errors.v2"
+}

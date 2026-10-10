@@ -83,7 +83,7 @@ def metrics(y, pred) -> dict:
 
 def write_json(path: Path, obj) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, indent=2, allow_nan=False)+"\n")
+    path.write_text(json.dumps(obj, indent=2, allow_nan=False)+"\n", encoding="utf-8", newline="\n")
 
 
 def run(out: Path, seed: int = SEED) -> dict:
@@ -91,7 +91,7 @@ def run(out: Path, seed: int = SEED) -> dict:
         (out/folder).mkdir(parents=True,exist_ok=True)
     df = simulate(seed)
     raw_path = out/"data/synthetic_hourly.csv"
-    df.to_csv(raw_path,index=False,float_format="%.8f")
+    df.to_csv(raw_path,index=False,float_format="%.8f",lineterminator="\n")
     dataset_hash = hashlib.sha256(raw_path.read_bytes()).hexdigest()
     demo = {"version":"1.0.0","seed":seed,"data_kind":"deterministic synthetic data",
             "dataset_sha256":dataset_hash,"feature_names":FEATURES,"feeders":[],
@@ -150,10 +150,10 @@ def run(out: Path, seed: int = SEED) -> dict:
     assert verify(chain,head)[0]
     demo["chain"]=chain;demo["checkpoint"]=head
     write_json(out/"results/metrics.json",summary)
-    pd.DataFrame(predictions).to_csv(out/"results/predictions.csv",index=False,float_format="%.8f")
+    pd.DataFrame(predictions).to_csv(out/"results/predictions.csv",index=False,float_format="%.8f",lineterminator="\n")
     write_json(out/"results/ledger.json",{"records":chain,"checkpoint":head})
     write_json(out/"assets/demo-data.json",demo)
-    (out/"assets/demo-data.js").write_text("window.GRIDLEDGER_DATA = "+json.dumps(demo,separators=(",",":"),allow_nan=False)+";\n")
+    (out/"assets/demo-data.js").write_text("window.GRIDLEDGER_DATA = "+json.dumps(demo,separators=(",",":"),allow_nan=False)+";\n", encoding="utf-8", newline="\n")
     # This manifest owns the inference experiment. Independent audit and UI
     # artifacts have their own lifecycle and must not create stale cross-links.
     names = ["ledger.json", "metrics.json", "model_F01.json", "model_F02.json",

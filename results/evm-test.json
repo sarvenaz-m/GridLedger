@@ -5,6 +5,8 @@
   "contract_sha256": "722b604c41630a43db547e9c2aa10f067bfcbb99eb6cc314f85f07951dcc9735",
   "anchored_checkpoint": "4d4e1c8bfbd6a83782f61c734a10b42b4a62e4ce99f5bb0994baac92072cb8be",
   "manifest_sha256": "9c3923533c837755b719840b68c7618bcda107e67ceab4adec06c9e6b55ac5d2",
+  "real_anchored_checkpoint": "d6a8b3d57f531ff22ede8e6e315b84d47a5c59772daca975e4f8ea930f7601b7",
+  "real_manifest_sha256": "708f70473e693f9ab5c9cf2d74de652bbfade1096f8269afc88975aa03852fb4",
   "checks": [
     {
       "name": "Owner starts as an authorized writer",
@@ -36,6 +38,10 @@
     },
     {
       "name": "Revocation blocks further writes",
+      "passed": true
+    },
+    {
+      "name": "Real UCI checkpoint and its separate manifest are anchored",
       "passed": true
     }
   ]

@@ -1,6 +1,8 @@
 # Methodology
 
-Version 1.0 · experiment seed 42 · all timestamps UTC
+Synthetic studio reference experiment · seed 42 · timestamps UTC
+
+GridLedger 2.0 preserves this simulation. The main real-electricity experiment uses a different input contract and clock: see [Real electricity protocol](REAL_DATA.md) and [Executed results](RESULTS.md).
 
 ## Question and scope
 

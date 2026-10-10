@@ -1,12 +1,42 @@
 {
-  "interface": "GridLedger 1.0 cobalt redesign",
-  "preset_scenarios": true,
-  "hourly_replay": true,
-  "keyboard_navigation": true,
-  "five_step_tour": true,
-  "temporal_audit_display": true,
-  "distribution_monitor": true,
-  "mobile_tabs_no_overflow": true,
-  "mobile_tour_no_overflow": true,
-  "page_errors": []
+  "version": "2.0.0",
+  "browser": "154.0.8037.92",
+  "surfaces": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "real_clients": 20,
+      "horizons": 3,
+      "five_workspaces": true,
+      "keyboard_replay": true,
+      "controlled_loss": true,
+      "export_download": true,
+      "real_ledger_verification": true,
+      "synthetic_presets": true,
+      "synthetic_tamper_and_restore": true,
+      "five_step_tour": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "real_clients": 20,
+      "horizons": 3,
+      "five_workspaces": true,
+      "keyboard_replay": true,
+      "controlled_loss": true,
+      "export_download": true,
+      "real_ledger_verification": true,
+      "synthetic_presets": true,
+      "synthetic_tamper_and_restore": true,
+      "five_step_tour": true,
+      "no_horizontal_overflow": true
+    }
+  ],
+  "page_errors": [],
+  "failed_requests": []
 }

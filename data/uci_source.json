@@ -1,0 +1,181 @@
+{
+  "activation_from_first_training": {
+    "MT_001": "2013-01-01T00:00:00",
+    "MT_002": "2013-01-01T00:00:00",
+    "MT_003": "2013-01-01T00:00:00",
+    "MT_004": "2013-01-01T00:00:00",
+    "MT_005": "2013-01-01T00:00:00",
+    "MT_006": "2013-01-01T00:00:00",
+    "MT_007": "2013-01-01T00:00:00",
+    "MT_008": "2013-01-01T00:00:00",
+    "MT_009": "2013-01-01T00:00:00",
+    "MT_010": "2013-01-01T00:00:00",
+    "MT_011": "2013-01-01T00:00:00",
+    "MT_012": "2013-08-29T14:00:00",
+    "MT_013": "2013-01-01T00:00:00",
+    "MT_014": "2013-01-01T00:00:00",
+    "MT_015": "2013-06-04T14:00:00",
+    "MT_016": "2013-01-01T00:00:00",
+    "MT_017": "2013-01-01T00:00:00",
+    "MT_018": "2013-01-01T00:00:00",
+    "MT_019": "2013-01-01T00:00:00",
+    "MT_020": "2013-01-01T00:00:00"
+  },
+  "activation_policy": "Exclude the initial zero run up to the first positive 2013 training reading; retain all subsequent zero readings. First-training rule only.",
+  "aggregation": "Arithmetic mean of four quarter-hour kW readings per left-labelled source-clock hour. kWh per quarter = kW / 4.",
+  "archive_bytes": 261335609,
+  "archive_sha256": "f6c4d0e0df12ecdb9ea008dd6eef3518adb52c559d04a9bac2e1b81dcfc8d4e1",
+  "clock": "Timezone-naive Portuguese provider clock; 96 slots per day even on DST transitions. No UTC conversion.",
+  "creator": "Artur Trindade",
+  "dataset": "ElectricityLoadDiagrams20112014",
+  "doi": "10.24432/C58C86",
+  "download_url": "https://archive.ics.uci.edu/static/public/321/electricityloaddiagrams20112014.zip",
+  "dst_dates": [
+    "2013-03-31",
+    "2013-10-27",
+    "2014-03-30",
+    "2014-10-26"
+  ],
+  "dst_hours_per_meter": 96,
+  "dst_policy": "Exclude whole March/October transition days from targets; treat their historical inputs as unavailable. Also exclude origin-to-target windows crossing those dates.",
+  "end_exclusive": "2015-01-01",
+  "hash_note": "Archive hash pinned from the official UCI download; this is a project pin, not a separately published provider checksum.",
+  "hourly_csv_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+  "hourly_meter_observations": 350400,
+  "hourly_rows_per_meter": 17520,
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "member": "LD2011_2014.txt",
+  "member_sha256": "d51565f2cb5a6b768d06ba1bbd3c084c6e2f3aab07f00c6f2dcb80e90175124b",
+  "meters": [
+    "MT_001",
+    "MT_002",
+    "MT_003",
+    "MT_004",
+    "MT_005",
+    "MT_006",
+    "MT_007",
+    "MT_008",
+    "MT_009",
+    "MT_010",
+    "MT_011",
+    "MT_012",
+    "MT_013",
+    "MT_014",
+    "MT_015",
+    "MT_016",
+    "MT_017",
+    "MT_018",
+    "MT_019",
+    "MT_020"
+  ],
+  "provider_missing_values": "Provider reports none. Initial zero runs can encode clients not yet created; later zeros are retained.",
+  "quality": {
+    "MT_001": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 38
+    },
+    "MT_002": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 1
+    },
+    "MT_003": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 149
+    },
+    "MT_004": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_005": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_006": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_007": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_008": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_009": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_010": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_011": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_012": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 5774,
+      "zero_hours": 5775
+    },
+    "MT_013": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_014": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 9
+    },
+    "MT_015": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 3710,
+      "zero_hours": 6350
+    },
+    "MT_016": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_017": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 11
+    },
+    "MT_018": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_019": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    },
+    "MT_020": {
+      "nonfinite_hours": 0,
+      "pre_activation_hours": 0,
+      "zero_hours": 2
+    }
+  },
+  "schema": "gridledger.uci-source.v2",
+  "selection": "MT_001\u2013MT_020 in source order; fixed cohort, no test-score selection",
+  "source_page": "https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014",
+  "source_quarter_hour_rows": 140256,
+  "source_total_meters": 370,
+  "start_inclusive": "2013-01-01"
+}

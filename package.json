@@ -2,14 +2,17 @@
   "devDependencies": {
     "ethers": "6.15.0",
     "ganache": "7.9.2",
+    "playwright": "1.62.1",
     "solc": "0.8.30"
   },
   "name": "gridledger",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Energy ML and verifiable prediction provenance",
   "scripts": {
     "test:contract": "node scripts/test-contract.cjs",
-    "test:browser-model": "node scripts/test-browser-model.cjs"
+    "test:browser-model": "node scripts/test-browser-model.cjs",
+    "test:real-model": "node scripts/test-real-model.cjs",
+    "test:ui": "node scripts/check-ui.mjs"
   }
 }

@@ -1,0 +1,965 @@
+{
+  "checkpoint": "d6a8b3d57f531ff22ede8e6e315b84d47a5c59772daca975e4f8ea930f7601b7",
+  "records": [
+    {
+      "hash": "1c67ec78f6a6e543b678f4093801972195b067f0b3757ddc68bd5b574dd04b4c",
+      "index": 0,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_001",
+        "model_sha256": "66a7fc9f5f29af96c9e503d132183666bc2df128e7a68439b3855587777e51a7",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 2320,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "hash": "c482f497f9d9d647a5470340d13b8c0646f7b74db23a437f35956b4283654c5c",
+      "index": 1,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_001",
+        "model_sha256": "a42d049bf6f0a7e7b8a29578a03935c0ca585bb12b0f166c90da216c6fc4e160",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 2492,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "1c67ec78f6a6e543b678f4093801972195b067f0b3757ddc68bd5b574dd04b4c"
+    },
+    {
+      "hash": "0a3c77ba437aa7a88c07491faceef4d3d2f82b49e10f618f7de6cf182222ba7e",
+      "index": 2,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_001",
+        "model_sha256": "f4f924a800a3a00cb33f04efbdbadb4ba80c8502e83e16bee2813d208da3e60d",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 3351,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "c482f497f9d9d647a5470340d13b8c0646f7b74db23a437f35956b4283654c5c"
+    },
+    {
+      "hash": "48542a426b6efafc34c43cbed754a163956c973b70c8bc658c98383060a6912b",
+      "index": 3,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_002",
+        "model_sha256": "015e408a4641c3ccd96690f8db91d1e2a71264e24f2eda96653cb9876c43fb24",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 21257,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "0a3c77ba437aa7a88c07491faceef4d3d2f82b49e10f618f7de6cf182222ba7e"
+    },
+    {
+      "hash": "09d2b805937382d0e06150bb1456bcf55b754bb3909dacaf1e102ba1f303154b",
+      "index": 4,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_002",
+        "model_sha256": "9a95c3da7b3d2cc023264473a826b41ffbc9e26415983c942cf0b453d495a2a1",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 21868,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "48542a426b6efafc34c43cbed754a163956c973b70c8bc658c98383060a6912b"
+    },
+    {
+      "hash": "ae9a3e7254051be97349d166e20954a9423e2e9fc544d2383d4919c2c7213163",
+      "index": 5,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_002",
+        "model_sha256": "9c3306b851de30e7dafaa9e89ad7c5bf5ab145c67df30c39fb2172672c94d8d1",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 22764,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "09d2b805937382d0e06150bb1456bcf55b754bb3909dacaf1e102ba1f303154b"
+    },
+    {
+      "hash": "f1477ba080cdd87ed6a303c6155f58f59fe0737e392f0bcacf92a0d663a138f8",
+      "index": 6,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_003",
+        "model_sha256": "4563ff2a374d32736df6a05656524a19ceef14c5b71bd4cc8a7b23ff03514725",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 1709,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "ae9a3e7254051be97349d166e20954a9423e2e9fc544d2383d4919c2c7213163"
+    },
+    {
+      "hash": "5cb0be733ea33fef6478a3180c504f67867e3766a82a6dbf3b402f77d71a8d80",
+      "index": 7,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_003",
+        "model_sha256": "347b51bdf4617e0fe4ff6373124d1d28b54334b938d7da993f2f5d92c53dadc8",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 1732,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "f1477ba080cdd87ed6a303c6155f58f59fe0737e392f0bcacf92a0d663a138f8"
+    },
+    {
+      "hash": "148adaf8192a8b0ddf033aefc4d96310b1500539b5a09beb0b34cee9ec92a47c",
+      "index": 8,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_003",
+        "model_sha256": "efc05c43d9f4888068e382f46f0d96f4b776bb461e1e04c1a299cc59b5f76953",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 1768,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "5cb0be733ea33fef6478a3180c504f67867e3766a82a6dbf3b402f77d71a8d80"
+    },
+    {
+      "hash": "3f4381c86d03b11ede6ce3d2e2827566d25ee0400c6049be4620a7d0c95ab3b6",
+      "index": 9,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_004",
+        "model_sha256": "143a65d8e7f712836dcf6c1a9161898f668cf56f5818916e2613e669b8184a7c",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 130097,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "148adaf8192a8b0ddf033aefc4d96310b1500539b5a09beb0b34cee9ec92a47c"
+    },
+    {
+      "hash": "46e87032a4e3912ad25505a790a738127567a0fabdb1d1b8b5bf43cff68b7cc5",
+      "index": 10,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_004",
+        "model_sha256": "28189c75aad25b44d2eee38f55f6920634eaca51a95ebdae55c14c663a7dd1da",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 129834,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "3f4381c86d03b11ede6ce3d2e2827566d25ee0400c6049be4620a7d0c95ab3b6"
+    },
+    {
+      "hash": "84b7e88a66a50dd3cf22f56ab4cd4bfc57f411e72a7a6dee38c617e76cd0e746",
+      "index": 11,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_004",
+        "model_sha256": "cf50218f74b11769bce34a2318145fc8c1ded2f41219e73f1302badfde8ced5c",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 130943,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "46e87032a4e3912ad25505a790a738127567a0fabdb1d1b8b5bf43cff68b7cc5"
+    },
+    {
+      "hash": "153a514974fbf2dd14daaf1466b031b91ffe82d68ecac219a8c4b60e53c7c3f3",
+      "index": 12,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_005",
+        "model_sha256": "93a0e272f9f8bd4dcbb5470949f8bd03b3e135061ecc2ce48a0d2cf61cc5da3e",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 71079,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "84b7e88a66a50dd3cf22f56ab4cd4bfc57f411e72a7a6dee38c617e76cd0e746"
+    },
+    {
+      "hash": "d20ab1d9aa2a47553555f9b06606de4137f91903d2aacb0e6da9bfb647d3ccd0",
+      "index": 13,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_005",
+        "model_sha256": "1c9fc9f94aa3589cfd9b67952a3190ba24cccb06385107e947721ae2d1f489f3",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 61398,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "153a514974fbf2dd14daaf1466b031b91ffe82d68ecac219a8c4b60e53c7c3f3"
+    },
+    {
+      "hash": "b1932ae25c55b13b5c607be5d564516853b1a5732d4d1aceb7a01bff1e57e16d",
+      "index": 14,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_005",
+        "model_sha256": "48bf980dbd9de02af1d639e84991ac59c0ac90fd1cfff4f0bbeb24dc37b3b3c7",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 63429,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "d20ab1d9aa2a47553555f9b06606de4137f91903d2aacb0e6da9bfb647d3ccd0"
+    },
+    {
+      "hash": "ece6e96108716a75e2d022e3ced5cca7b383d1aa9e5ea5d2005b4216b719f813",
+      "index": 15,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_006",
+        "model_sha256": "c4e9b4d2b45aa3ef4681cc46b940093c71de8a57330bf04d994342a29d808c86",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 211997,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "b1932ae25c55b13b5c607be5d564516853b1a5732d4d1aceb7a01bff1e57e16d"
+    },
+    {
+      "hash": "44d9c77baac3fecd7e5616a2dcf75dd0c627c9a4c9c3e1fbf87ce2bbc59285f3",
+      "index": 16,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_006",
+        "model_sha256": "07cddb75aed0a2ccf4172310ebe33807bba89b0064497f09971f99cc7c9c3458",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 202246,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "ece6e96108716a75e2d022e3ced5cca7b383d1aa9e5ea5d2005b4216b719f813"
+    },
+    {
+      "hash": "8abeb413f98f7fbf9a6f3e1418d283ecde2cb4d3417f2789a536aa75bcf414ea",
+      "index": 17,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_006",
+        "model_sha256": "d7c4ce9d0b99467659e52ad045fad57b180795702a68931ee4a194366abaf066",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 205643,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "44d9c77baac3fecd7e5616a2dcf75dd0c627c9a4c9c3e1fbf87ce2bbc59285f3"
+    },
+    {
+      "hash": "ebb275523a325be878e06ee2fe8b8b9da8b341e2e2eca7eca2a2197a39ce78aa",
+      "index": 18,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_007",
+        "model_sha256": "2153a243f16bdfa8c090557af993714f393d858e5e80e8cfa6da2f7781039888",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 7217,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "8abeb413f98f7fbf9a6f3e1418d283ecde2cb4d3417f2789a536aa75bcf414ea"
+    },
+    {
+      "hash": "fc14f9f1504b3bf2b4c3991544da833647eb844ad7f2b492b98bf39bdcc1b7b8",
+      "index": 19,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_007",
+        "model_sha256": "adc8d8d24e50fc7165f1ab268b75c3fcb0c6fd6621e3b8bbd781bc80225bbb07",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 4892,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "ebb275523a325be878e06ee2fe8b8b9da8b341e2e2eca7eca2a2197a39ce78aa"
+    },
+    {
+      "hash": "1eec39ba957398cd22502b3b24ee39bfbc44019855c09486724ab486c7915b3b",
+      "index": 20,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_007",
+        "model_sha256": "05fef629b3b73bc073e65c2bd0347300b63bba34b6e64c76dc4c565a529f7ff4",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 6270,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "fc14f9f1504b3bf2b4c3991544da833647eb844ad7f2b492b98bf39bdcc1b7b8"
+    },
+    {
+      "hash": "c5ca80151b8be9cf4cad299dd46b6dfe057ad00d87bf83280c321c5b5eb47489",
+      "index": 21,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_008",
+        "model_sha256": "bab393a5767f49951b3c115faa9661b7335dba277423af67b61ae9932421d478",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 249028,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "1eec39ba957398cd22502b3b24ee39bfbc44019855c09486724ab486c7915b3b"
+    },
+    {
+      "hash": "d436845e63501826ce4e21ca9b437442447ae204452839aa589cec73086f15ff",
+      "index": 22,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_008",
+        "model_sha256": "5ad93af51667cb269e5c179eddfca6776cd426cdcd03df457ab463efa18bd677",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 232987,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "c5ca80151b8be9cf4cad299dd46b6dfe057ad00d87bf83280c321c5b5eb47489"
+    },
+    {
+      "hash": "e034d67287e4bd3bcd949b77323923bd923438188780fcd0687a2c7b72e87591",
+      "index": 23,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_008",
+        "model_sha256": "9392decca22fd795a5a4cdf5edbe47acbee667caab1f2e670912683bc5e3b5af",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 241429,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "d436845e63501826ce4e21ca9b437442447ae204452839aa589cec73086f15ff"
+    },
+    {
+      "hash": "3caec5b086139172c98555567f6c291296960a395092f8c4402c767ccf936c5a",
+      "index": 24,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_009",
+        "model_sha256": "210aa6fc41f592d7c47a72b8937dac42d5548d9337c9be2f5185d2d3377b83e1",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 52675,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "e034d67287e4bd3bcd949b77323923bd923438188780fcd0687a2c7b72e87591"
+    },
+    {
+      "hash": "fb3e9d15e1701634cd8ebfbefc6f2f327f95754ff72521cc3c7dee5d0739cd69",
+      "index": 25,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_009",
+        "model_sha256": "0a56a6c017e40a926da39a0acc5dc0a8c2e14a2d9cea83216009d547d414f404",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 52655,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "3caec5b086139172c98555567f6c291296960a395092f8c4402c767ccf936c5a"
+    },
+    {
+      "hash": "e149196868458ea63f1574ff5ed008e1575cb9a844d1bf458710a1b6acf1a182",
+      "index": 26,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_009",
+        "model_sha256": "2aaeb32fe107f55aabd3da0423c58c3110f8238990ba8d7ec87f75594d2e8aa8",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 57561,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "fb3e9d15e1701634cd8ebfbefc6f2f327f95754ff72521cc3c7dee5d0739cd69"
+    },
+    {
+      "hash": "39fbebd0f0492e40eee0d0a7b63044a65cc576ed73ba86931f4e5597ba0e83bb",
+      "index": 27,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_010",
+        "model_sha256": "2ec5814faf4ccdf39974435af4cc40f129b66bc12fd07b410e759ac502739fda",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 55363,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "e149196868458ea63f1574ff5ed008e1575cb9a844d1bf458710a1b6acf1a182"
+    },
+    {
+      "hash": "914a5c653439ebea96411cda5d62410589173155bcf6db3b02fbeba78db5e972",
+      "index": 28,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_010",
+        "model_sha256": "b1602ec38f547a3be5537c8148b0b722af871e455dde198e255f74479bb2c410",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 54137,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "39fbebd0f0492e40eee0d0a7b63044a65cc576ed73ba86931f4e5597ba0e83bb"
+    },
+    {
+      "hash": "ce9d97843ddf9130f2068d57bcc5d82b3f4de410f7fc0074454d1c04a3061b47",
+      "index": 29,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_010",
+        "model_sha256": "a42ee5ae982a9da6208c3e8207bc57f6a900f7e8528e3060447f6887d6076dcc",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 56227,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "914a5c653439ebea96411cda5d62410589173155bcf6db3b02fbeba78db5e972"
+    },
+    {
+      "hash": "01f9ea55f11b08ae8122a77949d16d8d3c279c4ce151b6279f6ee0bf12aa1730",
+      "index": 30,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_011",
+        "model_sha256": "15fb6b7e7701b7394242c4ec2bc4f3427aa7249d2cf5867814954a84b626fa88",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 41449,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "ce9d97843ddf9130f2068d57bcc5d82b3f4de410f7fc0074454d1c04a3061b47"
+    },
+    {
+      "hash": "51667d05a4c858038a13dfdee13f3875b74201630541bacf342c295701582ca0",
+      "index": 31,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_011",
+        "model_sha256": "3cd3588a2bb067178894ed5b7b83a35de99bf6cad41d0106fbaab1e78927e5d7",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 41248,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "01f9ea55f11b08ae8122a77949d16d8d3c279c4ce151b6279f6ee0bf12aa1730"
+    },
+    {
+      "hash": "2eb8d17621fe6083456f552ab9a351618beba4cd58d1ba2b3dfae97681b16125",
+      "index": 32,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_011",
+        "model_sha256": "a603278a2a12a2601e39effd378c7a707d2ad5881ee444eb3cc08d51c013cb0c",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 42067,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "51667d05a4c858038a13dfdee13f3875b74201630541bacf342c295701582ca0"
+    },
+    {
+      "hash": "ba17b495dda73fc46b8b4a37ec9b74ab4dda7916dbef2f6cb7b7e2878bb01e0f",
+      "index": 33,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_012",
+        "model_sha256": "1c7eacf13d9f8aefe47d666d584d0ab217124d9436de27eaaf122669ba2bfa5b",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 135331,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "2eb8d17621fe6083456f552ab9a351618beba4cd58d1ba2b3dfae97681b16125"
+    },
+    {
+      "hash": "e90601666b33c7a8758b06cfac3e5ae8d0865695ba126fcd13b102f34829fff7",
+      "index": 34,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_012",
+        "model_sha256": "9eef0ebb7e4b2063182b99701d3b00b8bd38b73ad2f9d3f4304097b90fa86fd9",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 142662,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "ba17b495dda73fc46b8b4a37ec9b74ab4dda7916dbef2f6cb7b7e2878bb01e0f"
+    },
+    {
+      "hash": "86338856a202bb71060d50a467fd5772a64b4beccf5690eba7263c704efb1546",
+      "index": 35,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_012",
+        "model_sha256": "22665e038c4099adb61eae33ec6b499b4cbf535827b9080c21ec783d08a516c5",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 137381,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "e90601666b33c7a8758b06cfac3e5ae8d0865695ba126fcd13b102f34829fff7"
+    },
+    {
+      "hash": "c753c790766ed8ce3b43a22e1073b4db79653bbc4037dde0094d5c93daf736fc",
+      "index": 36,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_013",
+        "model_sha256": "53a2a617efed19a303c4419f53e87e8b1cbe3f3ddf174f6ec9e61ed6ffd2dfeb",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 50385,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "86338856a202bb71060d50a467fd5772a64b4beccf5690eba7263c704efb1546"
+    },
+    {
+      "hash": "4275247e6657412c56e33ef9ddfa450733bc3ae00501ec0449aebbc56ac11f33",
+      "index": 37,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_013",
+        "model_sha256": "e352745be0752a8cbd50f6c1aa90949ce20238322325886af4d42fce69991fc4",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 66781,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "c753c790766ed8ce3b43a22e1073b4db79653bbc4037dde0094d5c93daf736fc"
+    },
+    {
+      "hash": "8d3baaccd84be147fa71a65380beed2445b82c396884d47c7f136b1766907c67",
+      "index": 38,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_013",
+        "model_sha256": "9b1a0f59c530f60761afd709c5669a350d2063d07f5a66fbac4b56a3b50449d2",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 61628,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "4275247e6657412c56e33ef9ddfa450733bc3ae00501ec0449aebbc56ac11f33"
+    },
+    {
+      "hash": "e893ca96ae28b6f8e7f38a55ea9f8e2f63cf99219312667dfad3133c51d8744d",
+      "index": 39,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_014",
+        "model_sha256": "005b878151c50d5fa8e9c160768f3dfa8c74d870fbd6e6b7c09c32fd415a0c9c",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 39388,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "8d3baaccd84be147fa71a65380beed2445b82c396884d47c7f136b1766907c67"
+    },
+    {
+      "hash": "6de8e71f56304763cf3a27374766fab3801a30c3c989e7ac45f9bc90bd390729",
+      "index": 40,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_014",
+        "model_sha256": "b3acc5e6305f8c0de7b502adec241e03ddb6702207242cfdcbffb6f52ac400fd",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 40684,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "e893ca96ae28b6f8e7f38a55ea9f8e2f63cf99219312667dfad3133c51d8744d"
+    },
+    {
+      "hash": "c707d0ea8369c0d9d35b47f90d0996208e4ae7d3e46371525443a594f6cbed1d",
+      "index": 41,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_014",
+        "model_sha256": "0731d117f6c973497ad6e9bad67f3b5bbdaa8ff1e9c5c9c870aaead33ecb5429",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 42425,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "6de8e71f56304763cf3a27374766fab3801a30c3c989e7ac45f9bc90bd390729"
+    },
+    {
+      "hash": "aaf59f059f0dc9033b43c3b323e68465609750dbfb51a0acd2997e454756c295",
+      "index": 42,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_015",
+        "model_sha256": "e5e97f1eab703318f4338791f2a62108156e31cba0f5fdef444ff3e8e55fce08",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 50330,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "c707d0ea8369c0d9d35b47f90d0996208e4ae7d3e46371525443a594f6cbed1d"
+    },
+    {
+      "hash": "2d93fb087f0484e201fd9016ffb8c5c8f7dd89dcd441040076d3efa44dc535b3",
+      "index": 43,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_015",
+        "model_sha256": "0e2c75ee21b28ccafee69289d75da0fd3a102a4f90378931c61a6a2c0a8bb062",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 41021,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "aaf59f059f0dc9033b43c3b323e68465609750dbfb51a0acd2997e454756c295"
+    },
+    {
+      "hash": "e75d5379727805345493593fe6a45d19768acc0e98176d8d241d4a6d7bdcdbc4",
+      "index": 44,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_015",
+        "model_sha256": "4c39f2e1ead2de3a508c319099c9241f6ec99e6415190dba28d5a9ad6e2283fa",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 46401,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "2d93fb087f0484e201fd9016ffb8c5c8f7dd89dcd441040076d3efa44dc535b3"
+    },
+    {
+      "hash": "634c86303ad7ddaa47b39b2345ca625127a9fc0f81dab4bf02f7d4fd7a42afc9",
+      "index": 45,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_016",
+        "model_sha256": "95719b1daeb63adb36b00cf42404278d2abe78776a6a511a3167ae5435030c97",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 42943,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "e75d5379727805345493593fe6a45d19768acc0e98176d8d241d4a6d7bdcdbc4"
+    },
+    {
+      "hash": "354c0aa00bf360b11b4520522dc49e0dfe24b624a03c1863e41288c854640ecf",
+      "index": 46,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_016",
+        "model_sha256": "ed1fa6b040a3249587c3a6b11dccf3e84d776d3595a297d848a2431a1ddd7210",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 38786,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "634c86303ad7ddaa47b39b2345ca625127a9fc0f81dab4bf02f7d4fd7a42afc9"
+    },
+    {
+      "hash": "4733811d8d5889ba4fda8654cd5162b41cce28d5d09c7b903c2f016f9c4836b5",
+      "index": 47,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_016",
+        "model_sha256": "bb9b8b181e36572140fa6598eae492d5cc545f6102a389e5567ff16092e93553",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 39647,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "354c0aa00bf360b11b4520522dc49e0dfe24b624a03c1863e41288c854640ecf"
+    },
+    {
+      "hash": "a67851d01bf93cb4f810a2ff004ef48a557060cf93434b6b7d58d4d864f4c282",
+      "index": 48,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_017",
+        "model_sha256": "c88f6696f2f41a198d4e16c6fa40dce4d3472aa0256a71c250e433158a49a746",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 47103,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "4733811d8d5889ba4fda8654cd5162b41cce28d5d09c7b903c2f016f9c4836b5"
+    },
+    {
+      "hash": "a4bd634ec0cdee6ec4dba2500d5ad077e24c515770c4589ff7b3e50fcb93e9b7",
+      "index": 49,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_017",
+        "model_sha256": "d1bf33c72dba1e1733e943fc5616cc0548cec55462d41221cafa2e782d07d569",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 45925,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "a67851d01bf93cb4f810a2ff004ef48a557060cf93434b6b7d58d4d864f4c282"
+    },
+    {
+      "hash": "40ebd324da2a3d9a55a2eb92da75f8be75a113bd95ce6a044e391ff390c6a328",
+      "index": 50,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_017",
+        "model_sha256": "7eb78704d6740c66342349b14e88ca20db8d4d2719d1d543a89cdf9022cb7fe6",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 47103,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "a4bd634ec0cdee6ec4dba2500d5ad077e24c515770c4589ff7b3e50fcb93e9b7"
+    },
+    {
+      "hash": "a0b37d424e4a261decbac6ef86a7be75e0fe54bc68f7ff0d60e40b90cab46b09",
+      "index": 51,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_018",
+        "model_sha256": "d8b3faa29e3b1b6e5e2702b97886331de20c251d6cfd6b1e9349386f163a7479",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 240912,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "40ebd324da2a3d9a55a2eb92da75f8be75a113bd95ce6a044e391ff390c6a328"
+    },
+    {
+      "hash": "8036f24a13f38f9d834f4d552155fe201be3b8b25a75c0009bde3548f6e74c43",
+      "index": 52,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_018",
+        "model_sha256": "8b4d12013fb6ad02be943f30c3d321d35862c1cc69af2d47e1476596d51b751a",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 241758,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "a0b37d424e4a261decbac6ef86a7be75e0fe54bc68f7ff0d60e40b90cab46b09"
+    },
+    {
+      "hash": "990b5718b7c43720813e2c1c6084981923e2c756f01df876bbff9eeecc24987f",
+      "index": 53,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_018",
+        "model_sha256": "43740799f493910bc859eb15b6bf4a11e012450472d6222efe95fe6cd4b73d6b",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 249458,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "8036f24a13f38f9d834f4d552155fe201be3b8b25a75c0009bde3548f6e74c43"
+    },
+    {
+      "hash": "7875790909d61829c946e3bea1b3cfdd8956b95beb9684922689bdd60920050a",
+      "index": 54,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_019",
+        "model_sha256": "9ff3116e846456fc1fd7c790b0b3453c9275b2696fd7c9bd4e305a32d8102b47",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 8582,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "990b5718b7c43720813e2c1c6084981923e2c756f01df876bbff9eeecc24987f"
+    },
+    {
+      "hash": "1a4d053e45c45720dfee926ba6d68b93ab54916c2b17e6343361e5856b3bc507",
+      "index": 55,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_019",
+        "model_sha256": "aad78d1ea44cce2c010d1730499fce1e81d8c781652c593243db4e3bc23aa0c0",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 8514,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "7875790909d61829c946e3bea1b3cfdd8956b95beb9684922689bdd60920050a"
+    },
+    {
+      "hash": "e7cff79b214b76c6c018f3f59e303bec43be0bb483f3e1e485eb3cf8b12ce32e",
+      "index": 56,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_019",
+        "model_sha256": "635bc15e1c6ac6e3eb26a355b7cbbbdba05f77ab4496ff9374b067e5780fb209",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 8745,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "1a4d053e45c45720dfee926ba6d68b93ab54916c2b17e6343361e5856b3bc507"
+    },
+    {
+      "hash": "64eec37e04e2678cb6c90ff5d004cb60c5750f0ba74ca7136973b83fba6389b0",
+      "index": 57,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 1,
+        "meter": "MT_020",
+        "model_sha256": "ea645ff3f10744b4287b6d48d064c1dc39f9118530f37fe3b5959a4b38abab4a",
+        "origin": "2014-11-05T23:00:00",
+        "prediction_watts": 57958,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "e7cff79b214b76c6c018f3f59e303bec43be0bb483f3e1e485eb3cf8b12ce32e"
+    },
+    {
+      "hash": "cae4b0c2b60325df56a18bd816aec5ac459e5a745f42f2866c8f809c71639b89",
+      "index": 58,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 6,
+        "meter": "MT_020",
+        "model_sha256": "624909d3e9cb96fb4ea69fba47ad88104a3eda8df31f93aae8815134c2d8c394",
+        "origin": "2014-11-05T18:00:00",
+        "prediction_watts": 55239,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "64eec37e04e2678cb6c90ff5d004cb60c5750f0ba74ca7136973b83fba6389b0"
+    },
+    {
+      "hash": "d6a8b3d57f531ff22ede8e6e315b84d47a5c59772daca975e4f8ea930f7601b7",
+      "index": 59,
+      "payload": {
+        "clock": "UCI Portuguese provider clock",
+        "dataset_sha256": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+        "horizon_hours": 24,
+        "meter": "MT_020",
+        "model_sha256": "412b472c29dca06bab673e28408884d4279e528d0af7b0b747ae82fc801edf69",
+        "origin": "2014-11-05T00:00:00",
+        "prediction_watts": 54797,
+        "schema": "gridledger.prediction.v2",
+        "target": "2014-11-05T23:00:00"
+      },
+      "previous": "cae4b0c2b60325df56a18bd816aec5ac459e5a745f42f2866c8f809c71639b89"
+    }
+  ]
+}

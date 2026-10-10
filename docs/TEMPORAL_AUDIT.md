@@ -1,4 +1,6 @@
-# Temporal audit
+# Synthetic temporal audit
+
+This preserved audit belongs to the synthetic studio. The four-fold UCI benchmark is described in [Real electricity protocol](REAL_DATA.md).
 
 The audit is an independent, deterministic experiment over the versioned hourly CSV. It preserves the original inference model and final-month benchmark.
 

@@ -5,8 +5,14 @@
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
   function predict(model, features) {
-    if (features.length !== model.coef.length || features.some(x => !Number.isFinite(x))) throw Error('Invalid feature vector');
-    return features.reduce((y,x,i) => y + (x-model.mean[i])/model.scale[i]*model.coef[i], model.intercept);
+    if (!model || !Array.isArray(features) || !Array.isArray(model.coef) ||
+        features.length !== model.coef.length || features.some(x => !Number.isFinite(x)) ||
+        !Number.isFinite(model.intercept) || !Array.isArray(model.mean) || !Array.isArray(model.scale) ||
+        model.mean.length !== features.length || model.scale.length !== features.length ||
+        model.coef.some(x=>!Number.isFinite(x)) || model.mean.some(x=>!Number.isFinite(x)) ||
+        model.scale.some(x=>!Number.isFinite(x)||x<=0)) throw Error('Invalid model or feature vector');
+    const y=features.reduce((y,x,i) => y + (x-model.mean[i])/model.scale[i]*model.coef[i], model.intercept);
+    return Number.isFinite(model.clip_min) ? Math.max(model.clip_min,y) : y;
   }
   function scenario(feeder, {extraEV=0, solar=1, threshold=1, spike=false}={}) {
     return feeder.rows.map((r,i) => {

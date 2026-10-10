@@ -1,0 +1,15 @@
+{
+  "files": {
+    "assets/real-data.js": "45876a97c06fb2d74d2b08aca9052ee1907dfae98c9cb23f0ffdb465c15ab2f6",
+    "assets/real-data.json": "f723acda39c162be9480f1110c05eadb0c821dc25b364b0e78bca7dfd72f49e0",
+    "data/uci_hourly.csv": "b659d73db39d73bec73c1b1bfb22e7d94e63ce961514f8d734bc745da1d2945c",
+    "data/uci_source.json": "03a437a02a0937f2111ea46cdfa94b0cae489baad0156befe9fc1c2d86c5bf67",
+    "results/real_benchmark.json": "d31541143d3136453850455c3777a8750d99a7bd23ece283e59eac5ab89c460c",
+    "results/real_daily_contrasts.csv": "551e3c3a94cdc3099ece985eed7b461731e4968bc90b6cc68cab0c6e08d35c01",
+    "results/real_ledger.json": "87bde19fbb5be06b98ba3dd6c8dc8ada390919162798cc4218a0e6e98eeeb66e",
+    "results/real_predictions.csv.gz": "da416a082547d53aa3da1fdccb7202d6423da0f35386422a0d1941a4478559ae",
+    "src/gridledger/real.py": "acc4e0617fc8f7124a9bab2ae333d718fa0f4bf384ff13f2f7cd69e2c15ab380",
+    "src/gridledger/real_data.py": "725c505220c9a7b2e4558279b31995695f3de21c8c217766f095c233b1d3384c"
+  },
+  "schema": "gridledger.real-manifest.v2"
+}
